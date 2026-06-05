@@ -45,7 +45,7 @@ export function TopNav() {
             <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-primary text-primary-foreground shadow-glow">
               SV
             </span>
-            <span className="text-foreground">Sreekanth<span className="text-gradient">.</span></span>
+            <span className="text-foreground">Sreekanth Valmiki<span className="text-gradient">.</span></span>
           </Link>
 
           <nav className="hidden md:flex items-center gap-1">
@@ -68,7 +68,8 @@ export function TopNav() {
           <div className="hidden md:block">
             <a
               href="/Sreekanth_Valmiki_Resume.pdf"
-              download
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center rounded-lg bg-gradient-primary px-4 py-2 text-sm font-semibold text-primary-foreground shadow-elegant hover:opacity-90 transition"
             >
               Resume

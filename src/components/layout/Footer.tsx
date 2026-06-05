@@ -10,7 +10,7 @@ export function Footer() {
             <div className="font-display text-lg font-semibold">
               {profile.name}
             </div>
-            <p className="mt-2 text-sm text-muted-foreground max-w-xs">
+            <p className="mt-2 text-sm max-w-xs">
               {profile.tagline}
             </p>
           </div>
@@ -34,10 +34,10 @@ export function Footer() {
             </ul>
           </div>
         </div>
-        <div className="mt-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-3 text-xs text-muted-foreground">
+        {/* <div className="mt-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-3 text-xs text-muted-foreground">
           <div>© {new Date().getFullYear()} {profile.name}. Crafted with care.</div>
           <div className="font-mono">Built with React · TanStack Start · Tailwind</div>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

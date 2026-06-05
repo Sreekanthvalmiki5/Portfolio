@@ -13,11 +13,11 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
           loading="lazy"
           className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
         />
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-background via-background/30 to-transparent" />
+        <div className="pointer-events-none absolute inset-0  from-background via-background/30 to-transparent" />
       </div>
       <div className="p-6">
         <h3 className="font-display text-xl font-semibold">{project.title}</h3>
-        <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
+        <p className="mt-2 text-sm text-foreground/85 leading-relaxed text-color">
           {project.description}
         </p>
         <div className="mt-4 flex flex-wrap gap-2">
