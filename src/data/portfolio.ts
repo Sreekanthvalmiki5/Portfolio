@@ -25,6 +25,7 @@ export const skills: Skill[] = [
   { name: "SQL", category: "Languages" },
   { name: "FastAPI", category: "Backend" },
   { name: "Next.js", category: "Frontend" },
+    { name: "React", category: "Frontend" },
   { name: "Generative AI", category: "AI" },
   { name: "RAG", category: "AI" },
   { name: "Agentic AI Systems", category: "AI" },
@@ -111,6 +112,7 @@ export const projects: Project[] = [
 ];
 
 export const certifications = [
+  "Anthropic — Building with Claude: Foundations & Advanced",
   "Udemy — LLM Engineer: Build & Deploy 8 LLM Apps (GenAI, RAG, LoRA, AI Agents)",
   "Udemy — AI Engineer Agentic Track: Complete Agent & MCP Course",
   "Google Cloud — Natural Language Processing Badge",

@@ -67,9 +67,9 @@ function HomePage() {
 
             <dl className="mt-10 grid grid-cols-3 gap-6 max-w-md">
               {[
-                { k: "1+", v: "Years experience" },
+                { k: "2+", v: "Years experience" },
                 { k: "10+", v: "AI projects" },
-                { k: "6+", v: "Certifications" },
+                { k: "10+", v: "Certifications" },
               ].map((s) => (
                 <div key={s.v}>
                   <dt className="font-display text-3xl font-bold text-gradient">{s.k}</dt>
