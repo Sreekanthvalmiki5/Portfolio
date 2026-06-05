@@ -45,13 +45,13 @@ function HomePage() {
               <br />
               I build <span className="text-gradient">intelligent</span> systems.
             </h1>
-            <p className="mt-6 max-w-xl text-base md:text-lg text-muted-foreground leading-relaxed">
+            <p className="mt-6 max-w-xl text-base md:text-lg text-white leading-relaxed">
               {profile.tagline}
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
                 to="/projects"
-                className="inline-flex items-center gap-2 rounded-xl bg-gradient-primary px-5 py-3 text-sm font-semibold text-primary-foreground shadow-elegant hover:opacity-90 transition"
+                className="inline-flex items-center gap-2 rounded-xl  px-5 py-3 text-sm font-semibold text-primary-foreground shadow-elegant hover:opacity-90 transition"
               >
                 View my work <ArrowRight className="h-4 w-4" />
               </Link>
@@ -95,8 +95,8 @@ function HomePage() {
       </section>
 
       {/* FEATURED PROJECTS */}
-      <section className="mt-20">
-        <SectionHeader
+      <section className="mt-20 text-white">
+        <SectionHeader 
           eyebrow="Featured work"
           title="Projects"
           description="A selection of AI engineering and full-stack work, from autonomous agents to fine-tuned LLMs."

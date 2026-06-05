@@ -22,7 +22,7 @@ function AboutPage() {
         description={profile.summary}
       />
 
-      <div className="grid gap-6 md:grid-cols-3">
+      <div className="grid gap-6 text-white md:grid-cols-3">
         <InfoCard icon={MapPin} label="Location" value={profile.location} />
         <InfoCard icon={Mail} label="Email" value={profile.email} href={`mailto:${profile.email}`} />
         <InfoCard icon={Phone} label="Phone" value={profile.phone} href={`tel:${profile.phone}`} />
@@ -40,7 +40,7 @@ function AboutPage() {
             {education.map((e) => (
               <li key={e.school} className="border-l-2 border-primary/40 pl-4">
                 <div className="font-semibold">{e.degree}</div>
-                <div className="text-sm text-muted-foreground">{e.school}</div>
+                <div className="text-sm text-white">{e.school}</div>
                 <div className="mt-1 flex gap-3 text-xs text-muted-foreground">
                   <span>{e.period}</span>
                   <span className="text-primary">{e.score}</span>
@@ -59,7 +59,7 @@ function AboutPage() {
           </div>
           <ul className="mt-6 space-y-3">
             {certifications.map((c) => (
-              <li key={c} className="flex gap-3 text-sm text-muted-foreground">
+              <li key={c} className="flex gap-3 text-sm text-white">
                 <span className="mt-1.5 h-1.5 w-1.5 flex-none rounded-full bg-primary" />
                 <span>{c}</span>
               </li>

@@ -17,7 +17,7 @@ export function ProjectCard({ project, index }: { project: Project; index: numbe
       </div>
       <div className="p-6">
         <h3 className="font-display text-xl font-semibold">{project.title}</h3>
-        <p className="mt-2 text-sm text-foreground/85 leading-relaxed text-color">
+        <p className="mt-2 text-sm text-white leading-relaxed text-color">
           {project.description}
         </p>
         <div className="mt-4 flex flex-wrap gap-2">

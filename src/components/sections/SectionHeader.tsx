@@ -20,7 +20,7 @@ export function SectionHeader({ eyebrow, title, description, align = "left" }: P
         <span className="text-gradient">{title}</span>
       </h2>
       {description && (
-        <p className="mt-4 text-muted-foreground text-base md:text-lg leading-relaxed">
+        <p className="mt-4 text-white md:text-lg leading-relaxed">
           {description}
         </p>
       )}
