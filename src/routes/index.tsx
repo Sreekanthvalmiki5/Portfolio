@@ -103,7 +103,7 @@ function HomePage() {
         />
         <div className="grid gap-6 md:grid-cols-2">
           {projects.slice(0, 4).map((p, i) => (
-            <ProjectCard key={p.title} project={p} index={i} />
+            <ProjectCard key={p.slug} project={p} index={i} />
           ))}
         </div>
         <div className="mt-8 text-center">
