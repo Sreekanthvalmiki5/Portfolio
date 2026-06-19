@@ -1,7 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowRight, Download, Sparkles, GraduationCap, Award, MapPin, Mail, Phone } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
-import avatar from "@/assets/avatar.jpg";
+import profileimg from "@/assets/profile.png";
 import { profile, projects, experiences, skills, education, certifications } from "@/data/portfolio";
 import { ProjectCard } from "@/components/cards/ProjectCard";
 import { ExperienceCard } from "@/components/cards/ExperienceCard";
@@ -88,7 +88,7 @@ function HomePage() {
           <div className="relative mx-auto">
             <div className="absolute -inset-4 rounded-full bg-gradient-aurora blur-2xl opacity-50" />
             <div className="relative h-72 w-72 md:h-80 md:w-80 overflow-hidden rounded-full ring-2 ring-primary/40 shadow-glow animate-[float_6s_ease-in-out_infinite]">
-              <img src={avatar} alt={profile.name} className="h-full w-full object-cover" />
+              <img src={profileimg} alt={profile.name} className="h-full w-full object-cover" />
             </div>
           </div>
         </div>
