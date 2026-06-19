@@ -1,12 +1,12 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-   "name": "sreeportfolio",
+   "name": "portfolio",
   "compatibility_date": "2025-09-24",
   "compatibility_flags": ["nodejs_compat"],
   "main": "src/server.ts",
   "routes": [
     {
-      "pattern": "sreeportfolio.sdbans.in/*",
+      "pattern": "sreeportfolio.sdbans.in",
       "custom_domain": true
     }]
 }
